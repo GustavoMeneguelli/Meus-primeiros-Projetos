@@ -66,6 +66,8 @@ while True:
     resposta = validacao(tentar_novamente) 
     if resposta == 'N':
         print('Encerrando...')
+         limparTela()
+         placar()
         break
     else:
         pass
