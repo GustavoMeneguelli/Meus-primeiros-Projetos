@@ -1,3 +1,4 @@
+#Simulador de jogo de Dados usando Classes e Metódos
 from random import randint
 from time import sleep
 import os
@@ -55,7 +56,7 @@ class JogarDado:
            linha()
            self.vitorias_maquina += 1
     
-    
+    #Mostrar o Placar Final
     def Placar(self):
         print(f'{"Estatística das Partidas":^20}')
         linha()
